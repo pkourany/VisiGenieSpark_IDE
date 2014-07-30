@@ -1,6 +1,6 @@
 #if defined (SPARK)
 #include "Serial2.h"
-#include "VisiGenieSpark.h"
+#include "VisiGenieSpark/VisiGenieSpark.h"
 #else
 #include <genieArduino.h>
 #endif
