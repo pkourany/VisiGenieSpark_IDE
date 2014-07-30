@@ -65,18 +65,12 @@ The demo included with this library was made for the uLCD-32PTU however can easi
  *********************************************************************/
 ```
 
- Notes
- =====
+## Notes
+
+This library is a version of 4D Systems ViSi-Genie-Arduino library adapted for the Spark.  The library is designed to use any (hardware) Serial port.  On the Spark, this would  be Serial1 or Serial2 (when it is released).
  
- This library is a version of 4D Systems ViSi-Genie-Arduino library adapted for the Spark.
- The library is designed to use any (hardware) Serial port.  On the Spark, this would
- be Serial1 or Serial2 (when it is released).
+The genieSpark_Demo program requires that the 4D display be connected to Serial1 and that the  display be pre-programmed with the sample 4DWorkshop file and setup to run at 115,200 baud.
  
- The genieSpark_Demo program requires that the 4D display be connected to Serial1 and that the
- display be pre-programmed with the sample 4DWorkshop file and setup to run at 115,200 baud.
- 
- The genieSpark_Demo_MultiScreen program requires two 4D displays, one connected to Serial1 and
- the other to Serial2, each pre-programmed with the sample 4DWorkshop file and setup to run at
- 115,200 baud.
+The genieSpark_Demo_MultiScreen program requires two 4D displays, one connected to Serial1 and the other to Serial2, each pre-programmed with the sample 4DWorkshop file and setup to run at 115,200 baud.
  
  
