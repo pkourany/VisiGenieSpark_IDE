@@ -1,0 +1,7 @@
+{
+	"name": "VisiGenieSpark",
+	"author": "4D Systems Pty Ltd/ Paul Kourany",
+	"version": "1.0.0",
+	"license": "GNU Lesser General Public License",
+	"description": "4D Systems Visi-Genie library for Spark"
+}
