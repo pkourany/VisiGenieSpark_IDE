@@ -1,5 +1,5 @@
 #if defined (SPARK)
-#include "VisiGenieSpark.h"
+#include "VisiGenieSpark/VisiGenieSpark.h"
 #else
 #include <genieArduino.h>
 #endif
