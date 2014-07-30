@@ -27,6 +27,15 @@ This library has been tested on the Spark Core, Duemilanove, Uno, Mega 1280, Meg
 This library will work with all 4D Systems Modules which are capable of using the ViSi-Genie environment. This is therefore all Picaso and Diablo16 Display Modules.
 The demo included with this library was made for the uLCD-32PTU however can easily be adapted to other size displays.
 
+## Notes for Spark Core
+
+This library is a version of 4D Systems ViSi-Genie-Arduino library adapted for the Spark.  The library is designed to use any (hardware) Serial port.  On the Spark, this would  be Serial1 or Serial2 (when it is released).
+ 
+The genieSpark_Demo program requires that the 4D display be connected to Serial1 and that the  display be pre-programmed with the sample 4DWorkshop file and setup to run at 115,200 baud.
+ 
+The genieSpark_Demo_MultiScreen program requires two 4D displays, one connected to Serial1 and the other to Serial2, each pre-programmed with the sample 4DWorkshop file and setup to run at 115,200 baud.
+ 
+ 
 ```
 ////////////////////////// GenieArduino 20/07/2014 /////////////////////////
 //
@@ -64,13 +73,3 @@ The demo included with this library was made for the uLCD-32PTU however can easi
  *    If not, see <http://www.gnu.org/licenses/>.
  *********************************************************************/
 ```
-
-## Notes
-
-This library is a version of 4D Systems ViSi-Genie-Arduino library adapted for the Spark.  The library is designed to use any (hardware) Serial port.  On the Spark, this would  be Serial1 or Serial2 (when it is released).
- 
-The genieSpark_Demo program requires that the 4D display be connected to Serial1 and that the  display be pre-programmed with the sample 4DWorkshop file and setup to run at 115,200 baud.
- 
-The genieSpark_Demo_MultiScreen program requires two 4D displays, one connected to Serial1 and the other to Serial2, each pre-programmed with the sample 4DWorkshop file and setup to run at 115,200 baud.
- 
- 
